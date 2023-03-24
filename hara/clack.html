@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>スロットゲーム</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="clack.css">
+  </head>
+  <body>
+    <p id="money" class="money"></p>
+    <div class="slot">
+      <div id="slot-frame">
+        <ul class="reels">
+          <li class="reel" data-val="は？"><img src="は？.jpg"></li>
+          <li class="reel" data-val="+1000"><img src="+1000.jpg"></li>   <!-- index 6 -->
+          <li class="reel" data-val="サクランボ"><img src="サクランボ.jpg"></li>   <!-- index 5 -->
+          <li class="reel" data-val="は？"><img src="は？.jpg"></li>  <!-- index 4 -->
+          <li class="reel" data-val="7"><img src="7.jpg"></li>  <!-- index 3 -->
+          <li class="reel" data-val="m9(^д^)プギャー"><img src="m9(^д^)プギャー.jpg"></li>  <!-- index 2 -->
+          <li class="reel" data-val="Bペン"><img src="Bペン.jpg"></li><!-- index 1 -->
+          <li class="reel" data-val="天国行き"><img src="天国行き.jpg"></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="7"><img src="7.jpg"></li>
+        </ul>
+        <ul class="reels">
+          <li class="reel" data-val="+1000"><img src="+1000.jpg"></li>
+          <li class="reel" data-val="天国行き"><img src="天国行き.jpg"></li>
+          <li class="reel" data-val="は？"><img src="は？.jpg"></li>
+          <li class="reel" data-val="サクランボ"><img src="サクランボ.jpg"></li>
+          <li class="reel" data-val="+1000"><img src="+1000.jpg"></li>
+          <li class="reel" data-val="m9(^д^)プギャー"><img src="m9(^д^)プギャー.jpg"></li>
+          <li class="reel" data-val="7"><img src="7.jpg"></li>
+          <li class="reel" data-val="Bペン"><img src="Bペン.jpg"></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="m9(^д^)プギャー"><img src="m9(^д^)プギャー.jpg"></li>
+        </ul>
+        <ul class="reels">
+          <li class="reel" data-val="Bペン"><img src="Bペン.jpg"></li>
+          <li class="reel" data-val="m9(^д^)プギャー"><img src="m9(^д^)プギャー.jpg"></li>
+          <li class="reel" data-val="+1000"><img src="+1000.jpg"></li>
+          <li class="reel" data-val="Bペン"><img src="Bペン.jpg"></li>
+          <li class="reel" data-val="7"><img src="7.jpg"></li>
+          <li class="reel" data-val="は？"><img src="は？.jpg"></li>
+          <li class="reel" data-val="天国行き"><img src="天国行き.jpg"></li>
+          <li class="reel" data-val="サクランボ"><img src="サクランボ.jpg"></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="+1000"><img src="+1000.jpg"></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div id="hit">
+    </div>
+    <div>
+      <button type="button" class="stop-btn" data-val="0" disabled="true"></button>
+      <button type="button" class="stop-btn" data-val="1" disabled="true"></button>
+      <button type="button" class="stop-btn" data-val="2" disabled="true"></button>
+    </div>
+    <div>
+      <button type="button" id="start-btn">ゲームスタート</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="clack.js"></script>
+  </body>
+</html>
