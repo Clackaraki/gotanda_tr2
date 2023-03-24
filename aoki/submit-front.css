@@ -1,0 +1,33 @@
+.absolute_parent {
+    background-image:url(frontsss.png) ;
+    background-size:contain;
+      position:  relative;        /* 要素の配置方法をと子要素の起点を指定 */
+      /* border: solid 2px red;   */   /* 枠線指定 */
+    background-repeat: no-repeat;
+      height:  100%;             /* 高さ指定 */
+      width: 100%;  
+             }
+
+
+      .absolute_water{
+        position:  absolute;        /* 要素の配置方法を指定 */
+        background-color:#c1ffff;     /* 背景色指定 */
+        padding:  1px;             /* 余白指定 */
+        left:  320px;                /* 右からの位置指定 */
+        top: 205px;                  /* 上からの位置指定 */
+    }
+    .absolute_siryou {
+        position:  absolute;        /* 要素の配置方法を指定 */
+        background-color:#ffc993;     /* 背景色指定 */
+        padding:  1px;             /* 余白指定 */
+        left:  940px;                /* 右からの位置指定 */
+        top: 470px;                  /* 上からの位置指定 */
+    }
+
+    .absolute_aaa {
+        position:  absolute;        /* 要素の配置方法を指定 */
+        background-color:#b3ffc6;     /* 背景色指定 */
+        padding:  1px;             /* 余白指定 */
+        left:  -50px;                /* 右からの位置指定 */
+        top: -330px;                  /* 上からの位置指定 */
+    }

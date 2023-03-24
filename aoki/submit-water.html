@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自作</title>
+    <link href="submit-water.css" , rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+    <br>
+    <br>
+    <div class="container">
+        <h3>バーチャルウォーター（仮想水）とは？</h3>
+        <p>
+            食料輸入国がどのくらいの水を使ってその食料が作られたか、と
+            仮定したもの。食料を輸入することで、その食料を生産するのに必要とした水も間接的に輸入していることになるのがこの考え方。この概念はロンドン大学東洋アフリカ学科名誉教授のアンソニー・アラン氏によってはじめて発表されました。近年、教科書や入試問題にも扱われるようになりつつあります。
+        </p>
+        <a
+            href="https://www.env.go.jp/water/virtual_water/#:~:text=2005%E5%B9%B4%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC%E8%BC%B8%E5%85%A5,%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%9F%E6%A6%82%E5%BF%B5%E3%81%A7%E3%81%99%E3%80%82">もっと詳しく</a>
+        <br><br>
+        <h3>では実際に計算してみましょう！
+        </h3>
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+                <br><br>今朝食べたご飯のボタンをクリックしてみてください！おおよそのバーチャルウォーターの量が算出されます。
+                基本的にバーチャルウォーターは農作物よりも畜産物のほうが多いとされています。それは牛や豚が飲む水以外にも食べる飼料を育てるのに水が必要だからです。 <br><br>ちなみに
+                お風呂一杯約200リットル。
+                </div>
+            <div class="col-xs-6 col-sm-6 col-md-6"> <iframe width="331" height="233" seamless frameborder="0"
+                    scrolling="no"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTZ0-6KX33-dz3Dcg7-quS54QkKk-DWsi4F_p5oDnaWreIQ9D8z5ggbb_WfV92vhVfD8_XCYl_6dik/pubchart?oid=97270247&amp;format=interactive"></iframe>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+
+                <button id="bread" class="btn btn--bread"> <img src="./bread.png">
+                    <div>パン</div>
+                </button></p>
+            </div>
+
+            <div class="col-md-4">
+
+                <button id="rice" class="btn btn--rice btn--radius"><img src="rice.png">
+                    <div>お米</div>
+                </button></p>
+            </div>
+            <div class="col-md-4">
+
+                <button id="fish" class="btn btn--fish btn--radius"><img src="./udon.png">
+                    <div>うどん</div>
+                </button></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <button id="meat" class="btn btn--meat btn--radius"><img src="./meatttt.png">
+                    <div>ハンバーグ</div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button id="vegetable" class="btn btn--vegetable btn--radius"><img src="vegetable.png">
+                    <div>サラダ</div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button id="yogurt" class="btn btn--yogurt btn--radius"><img src="yougrut.png">
+                    <div>ヨーグルト</div>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <button id="orenge" class="btn btn--orenge btn--radius"><img src="orenge.png">
+                    <div>オレンジジュース</div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button id="tee" class="btn btn--tee btn--radius"><img src="tee.png">
+                    <div>お茶</div>
+                </button>
+            </div>
+        
+        <div style="padding: 10px; margin-bottom: 0px;  width: 250px;border: 2px  height 3px;  solid :rgb(219, 98, 98); border-radius: 10px;" class="col-md-4">
+            <button id ="final" class="btn btn--final btn--radius "><p>
+                <font size="5">合計の値は<span id="goukei"></span>L</font><br> <br>
+                <a onclick="window.location.reload(true);">
+                    <i class="fa fa-refresh" aria-hidden="true"></i><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/>
+                        <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/>
+                      </svg>リトライ</span>
+        
+            </p></button>
+        </div>
+        </div>
+       
+
+            <script src="submit-water.js"></script>
+            <link href="submit-water.css" , rel="stylesheet" type="text/css">
+            <h3>類似用語</h3>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <h1>ウォーターフットプリント</h1>
+                    <p>水を利用して行なわれる、製品の材料の生産や加工からリサイクルまでのライフサイクルが与える水環境への影響を評価するもの。グリーン・ウォーターフットプリントブルー・ウォーターフットプリントグレー・ウォーターフットプリントに分別できます。
+                    </p>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <h1>テレカップリング
+                    </h1>
+                    <p>tele＝遠く、coupling＝連結が語源。遠く離れた自然や環境のつながりについて。 距離を超えた社会経済的および環境的な相互作用のこと。
+                    </p>
+                </div>
+
+            </div>
+</body>
+</html>
