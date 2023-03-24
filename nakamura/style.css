@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+#header{
+    
+    height: 170px;
+    background-color: #d9376e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+.site-title{
+    width: 120px;
+    line-height: 1px;
+    padding: 50px; 
+    background-color: aliceblue;
+}
+.site-title a{
+    display: block;
+}
+img {
+    max-width: 100%;
+}
+img{
+    border-style:none
+}
+.site-title a{
+    display: block;
+    letter-spacing:5px ;
+}
+a{
+    text-decoration:none;
+}
+a{
+    background-color:transparent ;
+}
+nav {
+    display: block;
+}
+ul{
+    list-style: disc;
+    margin-block-start: 1em;
+    margin-block-end:1em ;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 40px;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+#header ul{
+    display: flex;
+    padding: 10px 0;
+}
+#header li{
+    margin-left:100px ;
+    line-height: 50px;
+    padding: 25px;
+    background-color: aliceblue;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 ;
+    width: 100%;
+}
+.wrapper{
+    text-align: center;
+}
+
+#mainvisual{
+    margin-bottom: 80px ;
+}
+div{
+    display: block;
+}
+#mainvisual img {
+    width: 100%;
+    max-width: 1920px;
+    object-fit: cover;
+}
+img{
+    border: 0;
+    padding: 0;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+body{
+    font-family: 'Sacramento', cursive;
+    font-family: "Nico Moji";
+    color: rgb(70, 61, 122);
+    font-size: 2rem;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    word-break: normal;
+}
+#about.text{
+    text-align: left;
+}
+.coment-title{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+body {
+    background-color: rgb(165, 240, 211);
+    font-size: 1.6rem;
+    margin: 0;
+}
+.nekozmonimage{
+width: 50%;
+}
+.px{
+    font-size: 35px;
+}
+.em{
+    font-size: 1.3em;
+}
