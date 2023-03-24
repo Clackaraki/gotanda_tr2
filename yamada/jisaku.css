@@ -1,0 +1,112 @@
+body{
+    background: url(chizu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.aikon{
+    width: 100px;
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    z-index: 1;
+    
+}
+
+
+.aikon2{
+    width: 100px;
+    position: absolute;
+    top: 470px;
+    left: 1100px;
+    z-index: 1;
+}
+
+.aikon3{
+    width: 100px;
+    position: absolute;
+    top: 1050px;
+    left: 1080px;
+    z-index: 1;
+
+}
+
+.aikon4{
+    width: 100px;
+    position: absolute;
+    top: 1050px;
+    left: 2320px;
+    z-index: 1;
+}
+
+.aikon5{
+    width: 100px;
+    position: absolute;
+    top: 490px;
+    left: 1950px;
+    z-index: 1;
+}
+
+.aikon6{
+    width: 100px;
+    position: absolute;
+    top: 510px;
+    left: 300px;
+    z-index: 1;
+}
+
+
+.a1{
+    width: 200px;
+    position: absolute;
+    top: 470px;
+    left: 1060px;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.a2{
+    width: 150px;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.a3{
+    width: 150px;
+    position: absolute;
+    top: 1100px;
+    left: 1050px;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.a4{
+    width: 150px;
+    position: absolute;
+    top: 530px;
+    left: 1930px;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.a5{
+    width: 150px;
+    position: absolute;
+    top: 1100px;
+    left: 2300px;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.a6{
+    width: 150px;
+    position: absolute;
+    top: 530px;
+    left: 280px;
+    z-index: 0;
+    opacity: 0.7;
+}
