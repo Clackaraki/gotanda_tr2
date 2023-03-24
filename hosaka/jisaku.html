@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヒット＆ブロー</title>
+    <link rel="stylesheet" href="jisaku.css" />
+</head>
+
+<body>
+    <h1 id="tytol">ヒット＆ブロー</h1>
+    <div id="choiceNums" class="virtualinput">
+        <div class="row">
+            <button id="sankaku"><img src="https://iconbox.fun/wp/wp-content/uploads/850_ch_f.png" /></button>
+            <button id="hart"><img src="https://iconbox.fun/wp/wp-content/uploads/553_me_f.png" /></button>
+            <button id="star"><img src="https://iconbox.fun/wp/wp-content/uploads/star_close_24.png" /></button>
+        </div>
+        <div class="row">
+            <button id="snow"><img src="https://iconbox.fun/wp/wp-content/uploads/159_w_24.png" /></button>
+            <button id="sun"><img src="https://iconbox.fun/wp/wp-content/uploads/145_w_24.png" /></button>
+            <button id="umbrella"><img src="https://iconbox.fun/wp/wp-content/uploads/155_w_24.png" /></button>
+        </div>
+        <div class="row">
+            <button id="thunder"><img src="https://iconbox.fun/wp/wp-content/uploads/157_w_24.png" /></button>
+            <button id="moon"><img src="https://iconbox.fun/wp/wp-content/uploads/148_w_24.png" /></button>
+            <button id="cloud"><img src="https://iconbox.fun/wp/wp-content/uploads/141_w_24.png" /></button>
+        </div>
+        <div class="row">
+            <button id="delet"><img src="https://iconbox.fun/wp/wp-content/uploads/909_x_f.png"></button>
+            <button id="enter"><img src="https://iconbox.fun/wp/wp-content/uploads/510_s_f.png"></button>
+        </div>
+    </div>
+
+    <table id="history">
+        <thead>
+            <tr>
+                <th>あなたの推測</th>
+                <th>ヒット</th>
+                <th>ブロー</th>
+            </tr>
+        <tbody id=yourguess>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="symbol"></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+    <p id="keyboardinput" class="keyinput"></p>
+    <div id="end" class="hide">
+        <p></p>
+        <p></p>
+        <p onclick="window.location.reload()"></p>
+    </div>
+    <script src="jisaku.js"></script>
+</body>
+
+</html>
