@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私はYes？No？</title>
+    <link rel="stylesheet" href="yesno.css">
+</head>
+<body>
+    
+
+    <h1>私はYes？No？</h1>
+    <p>質問にYesかNoで答えて、リンゴだと教えてあげてください。</p>
+    <hr />
+    <p>
+    <img src="https://illustimage.com/photo/dl/6845.png?20180811" class="apple-image">
+    </p>
+    <div class="col-md-5">
+        <div class="menu">
+            <div id="question_area">
+                <div id="q1" class="txt_display">私は食べ物です。<br>私は野菜ですか？</div>
+                <div id="q2" class="txt_hide">私は果物ですか？</div>
+                <div id="q3" class="txt_hide">私は甘酸っぱいですか？</div>
+                <div id="q4" class="txt_hide">私は苦いですか？</div>
+                <div id="q5" class="txt_hide">私は緑色ですか？</div>
+                <div id="q6" class="txt_hide">私は黄色ですか？</div>
+                <div id="q7" class="txt_hide">私は赤色ですか？</div>
+            </div>
+        </div>
+            <div id="result_area" class="txt_hide">
+                <div id="a1" class="txt_hide">
+                    <h2>わかりました！私はピーマンですね！</h2>
+                </div>
+                <div id="a2" class="txt_hide">
+                    <h2>わかりました！私はパプリカですね！</h2>
+                </div>
+                <div id="a3" class="txt_hide">
+                    <h2>私は一体誰なのでしょう……？</h2>
+                </div>
+                <div id="a4" class="txt_hide">
+                    <h2>わかりました！私はバナナですね！</h2>
+                </div>
+                <div id="a5" class="txt_hide">
+                    <h2>わかりました！私はリンゴですね！</h2>
+                </div>
+                <h5>
+                <a href="javaScript:OnAgainClick();">もう1回</a>
+                </h5>
+            </div>
+    <div id="btn_area" class="txt_display">
+        <h3>
+        <a href="javascript:OnYesClick();" id="btn_yes">Yes</a>
+        <a href="javascript:OnNoClick();" id="btn_no">No</a>
+        </h3>
+    </div>
+
+
+    <script src="yesno.js"></script>
+</body>
+</html>
