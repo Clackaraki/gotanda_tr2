@@ -1,0 +1,146 @@
+<html>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>洋服診断</title>
+  <link href="css/style.css" rel="stylesheet" media="all">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/common.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="title-wrap">
+      <div class="inner-block">
+        <h1 class="title">
+          洋服診断テスト！
+        </h1>
+      </div>
+    </div>
+    <div class="diagnose-wrap">
+      <div class="inner-block">
+        <div class="btn-wrap">
+          <button type="button" class="tool-btn start-btn" data-box-link="q1">診断スタート</button>
+        </div>
+        <div class="box-wrap">
+          <!-- Q1 -->
+          <div id="q1" class="box">
+            <span class="close-btn">
+              <span class="mark">診断TOPへ戻る</span>
+            </span>
+            <h2 class="title">
+              <span class="num">Q1.</span>
+              あなたは可愛いものが<span class="ib">好きですか？</span><span class="small">（一つだけ選択）</span>
+            </h2>
+            <div class="select-wrap">
+              <button type="button" class="select yes">はい</button>
+              <button type="button" class="select no">いいえ</button>
+              <button type="button" class="select vague">どちらとも言えない</button>
+            </div>
+            <div class="btn-wrap">
+              <button type="button" data-box-link="q2" class="tool-btn next is-active">次の質問へ</button>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div id="q2" class="box">
+            <span class="close-btn">
+              <span class="mark">診断TOPへ戻る</span>
+            </span>
+            <h2 class="title">
+              <span class="num">Q2.</span>
+              あなたは明るいタイプが<span class="ib">好きですか？</span><span class="small">（一つだけ選択）</span>
+            </h2>
+            <div class="select-wrap">
+              <button type="button" class="select yes">はい</button>
+              <button type="button" class="select no">いいえ</button>
+              <button type="button" class="select vague">どちらとも言えない</button>
+            </div>
+            <div class="btn-wrap">
+              <button type="button" class="tool-btn next result is-active">診断結果へ</button>
+            </div>
+          </div>
+
+          <!-- A1 動物好き -->
+          <div id="a1" class="box result">
+            <span class="close-btn">
+              <span class="mark">診断TOPへ戻る</span>
+            </span>
+            <h2 class="title">
+              ストリート系・フレンチガーリー系
+            </h2>
+            <p class="txt">
+              流行りの可愛いものが好きな方は、<br class="sp">フレンチガーリーがおすすめです！
+            </p>
+            <div class="btn-wrap">
+              <button type="button" class="tool-btn finish">診断終了</button>
+            </div>
+          </div>
+
+          <!-- A2 猫好き -->
+          <div id="a2" class="box result">
+            <span class="close-btn">
+              <span class="mark">診断TOPへ戻る</span>
+            </span>
+            <h2 class="title">
+              量産型・地雷系・フレンチガーリー！
+            </h2>
+            <p class="txt">
+              名前の通り量産されている量産型や地雷系がおすすめです！<br class="sp">可愛い女の子らしい服がたくさんあるこの三つの系統がおすすめです！
+            </p>
+            <div class="btn-wrap">
+              <button type="button" class="tool-btn finish">診断終了</button>
+            </div>
+          </div>
+
+          <!-- A3 犬好き -->
+          <div id="a3" class="box result">
+            <span class="close-btn">
+              <span class="mark">診断TOPへ戻る</span>
+            </span>
+            <h2 class="title">
+              清楚系
+            </h2>
+            <p class="txt">
+              明るさが好きなあなたは<br class="sp">清楚系が似合うタイプです。
+            </p>
+            <div class="btn-wrap">
+              <button type="button" class="tool-btn finish">診断終了</button>
+            </div>
+          </div>
+
+          <!-- A4 動物苦手 -->
+          <div id="a4" class="box result">
+            <span class="close-btn">
+              <span class="mark">診断TOPへ戻る</span>
+            </span>
+            <h2 class="title">
+              古着系！
+            </h2>
+            <p class="txt">
+              個性派の方は、<br class="sp">個性を発揮できる古着系がおすすめです！
+            </p>
+            <div class="btn-wrap">
+              <button type="button" class="tool-btn finish">診断終了</button>
+            </div>
+          </div>
+
+          <!-- A5 興味無し -->
+          <div id="a5" class="box result">
+            <span class="close-btn">
+              <span class="mark">診断TOPへ戻る</span>
+            </span>
+            <h2 class="title">
+              あなたはまだファッションに興味がない人かも。。
+            </h2>
+            <p class="txt">
+              これから好きになる<br class="sp">可能性がとても高いです！
+            </p>
+            <div class="btn-wrap">
+              <button type="button" class="tool-btn finish">診断終了</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
